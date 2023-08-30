@@ -25,7 +25,7 @@ package Cpanel::Security::Policy::RootRestrict;
 use base 'Cpanel::SecurityPolicy::Base';
 
 # Define here your allowed remote addresses
-our @allowed_ips = ('69.x.x.x', '192.x.x.x');
+our @allowed_ips = ('69.x.x.x', '192.x.x.x', '10.x.x.x');
 
 sub new {
   my ($class) = @_;
